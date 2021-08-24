@@ -45,6 +45,12 @@ namespace sportApi.Controllers
             return x+y;
         }
 
+        [HttpGet("adder")] //returnere sum i en ny filepath //api/sport/getumm
+        public int getAdd([FromQuery] int x, [FromQuery] int y)
+        {
+            return x * y;
+        }
+
         [HttpGet("tull")] //returner sport "arket" i en ny filepath //api/sport/tull
         public sport tull([FromQuery] sport a)
         {
