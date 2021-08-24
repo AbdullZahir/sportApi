@@ -26,3 +26,4 @@ C:\Users\abdullah.babar\Documents\sport-test\sportApi\obj\Debug\net5.0\sportApi.
 C:\Users\abdullah.babar\Documents\sport-test\sportApi\obj\Debug\net5.0\ref\sportApi.dll
 C:\Users\abdullah.babar\Documents\sport-test\sportApi\obj\Debug\net5.0\sportApi.pdb
 C:\Users\abdullah.babar\Documents\sport-test\sportApi\obj\Debug\net5.0\sportApi.genruntimeconfig.cache
+C:\Users\abdullah.babar\Documents\sport-test\sportApi\obj\Debug\net5.0\sportApi.csproj.AssemblyReference.cache

@@ -42,7 +42,7 @@ namespace sportApi.Controllers
         [HttpGet("getSum")] //returnere sum i en ny filepath //api/sport/getumm
         public int getSum([FromQuery]int x, [FromQuery]int y)
         {
-            return x*y;
+            return x+y;
         }
 
         [HttpGet("tull")] //returner sport "arket" i en ny filepath //api/sport/tull
