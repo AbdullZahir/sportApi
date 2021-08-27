@@ -23,7 +23,8 @@ namespace sportApi.Controllers
         [HttpGet]
         public IEnumerable<sport> hent()
         {
-            sport[] sportsArray = new sport[]
+            sport[] sportsArray = null;
+            sportsArray = new sport[]
             {
                 new sport{id=0, navn="fotball", beskrivelse="suger", dato= matte(1,1)},
                 new sport{id=1, navn="basketball", beskrivelse="duger", dato=matte(2,2)}
